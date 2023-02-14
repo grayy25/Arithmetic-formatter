@@ -1,6 +1,11 @@
 # Arithmetic-formatter
+
+
+#["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]
+
+
 def arithmetic_arranger(problems, *args):
-  #["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]
+  
   arranged_problems = []
 
   if (len(problems) > 5):
